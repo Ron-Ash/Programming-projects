@@ -3,6 +3,9 @@
 A program which can encrypt either a photo (will be translated into black and white) or a piece of text within a 'base' photo. I created this project after being introduced to the concept of cybersecurity and cryptography.
 - python
 
+### Notes:
+- code was written when I was in year 12 (2020) and before I officially/structuredly learned python and thus the code/UI is abit rudimentary and require hard-code changes to variables instead of user inputs on run-time. Future iterations and improvements are advised.
+
 pathways used can be either absolute or relative
 
 ## Development Environment:
@@ -37,6 +40,6 @@ pathways used can be either absolute or relative
 ## Example run:
 The resulting photos are from an example run where a photo was encoded into another
 - 'Base' Image ![image](https://user-images.githubusercontent.com/37012505/215311290-65c37f9d-7073-4a71-aa92-3e3b13123355.png)
-- Photo to be encrypted ![image](https://user-images.githubusercontent.com/37012505/215311472-b9ea46c9-110a-4833-b0f3-37033f397b83.png)
+- Photo to be encrypted (note, the algorithm converts teh image into black and white before encoding it) ![image](https://user-images.githubusercontent.com/37012505/215311472-b9ea46c9-110a-4833-b0f3-37033f397b83.png)
 - the resulting 'merged' photo with the encrypted secret photo ![image](https://user-images.githubusercontent.com/37012505/215311521-9fbe17fc-add1-496d-8e74-aa9febb970d3.png)
 - the retrieved photo after the 'merged' photo was decrypted ![image](https://user-images.githubusercontent.com/37012505/215311539-cbb39507-24e6-4ed9-b6cd-1aefae754eaa.png)
